@@ -10,5 +10,9 @@ public class Exercise15 {
 
         // 2. Instantiate your three favorite super heroes with appropriate powers.
         // 3. Use the `toLine` method to print each hero's details to the console.
+
+        Hero batman = new Hero("Batman", new Power[]{new Power("Money"), new Power("Sidekicks")});
+        String result = batman.toLine();
+        System.out.println(result);
     }
 }

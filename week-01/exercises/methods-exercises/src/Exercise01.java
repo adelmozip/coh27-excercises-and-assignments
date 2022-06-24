@@ -4,7 +4,10 @@ public class Exercise01 {
 
         String firstCompliment = getRandomCompliment();
         System.out.println(firstCompliment);
-
+        getRandomCompliment();
+        getRandomCompliment();
+        String complement = getRandomCompliment();
+        System.out.printf(getRandomCompliment());
         // Call the getRandomCompliment method two more times.
         // 1. Store the result in a new string variable.
         // 2. Print the result.

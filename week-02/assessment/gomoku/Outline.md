@@ -1,0 +1,1 @@
+-- This is an outline for my Gomoku game
